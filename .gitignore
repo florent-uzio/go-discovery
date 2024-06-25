@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Temporary files
+*.tmp
+*.log
+
+# Build directories
+/build/
+/bin/
+/target/
+
+# Vendor directories (for dependencies)
+vendor/
+
+# Go module files
+go.sum
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing artifacts
+*.test
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories for Go
+pkg/
